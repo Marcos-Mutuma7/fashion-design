@@ -68,6 +68,8 @@ export default {
       color: '#02073E',
       fontWeight: 'normal',
       py: 3,
+      backgroundColor: 'background_secondary',
+
     },
     toolbar: {
       display: 'flex',
