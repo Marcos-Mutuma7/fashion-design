@@ -55,7 +55,7 @@ const styles = {
   headerBtn: {
     fontSize: '16px',
     fontWeight: 700,
-    backgroundColor: '#FCF2E8',
+      backgroundColor: 'background_secondary',
     display: ['none', null, null, null, 'inline-block'],
   },
   header: {
