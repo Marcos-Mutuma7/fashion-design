@@ -74,7 +74,10 @@ export default {
       alignItems: 'center',
       // justifyContent: 'space-between',
     },
-    main: {},
+    main: {
+      backgroundColor: 'background_secondary',
+
+    },
     footer: {
       backgroundColor: 'background_secondary',
     },
@@ -87,7 +90,9 @@ export default {
       py: [3, 5],
     },
     gallery: {
-      py: 5,
+      backgroundColor: 'background_secondary',
+
+      py: 10,
     },
     gallery: {
       py: 5,
@@ -112,6 +117,8 @@ export default {
     },
     blog: {
       py: 5,
+      backgroundColor: 'background_secondary',
+
     },
   },
   text: {

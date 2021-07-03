@@ -4,6 +4,8 @@ import { jsx, Box, Container, Grid, Heading, Text } from 'theme-ui';
 import { IoIosCheckmarkCircle } from 'react-icons/io';
 import Image from 'components/image';
 import support from 'assets/images/support.png';
+import SectionHeading from 'components/section-heading';
+
 
 const list = [
   'Medical and vision',
@@ -21,10 +23,11 @@ const CustomerSupport = () => {
             <Image src={support} loading="lazy" alt="support" />
           </Box>
           <Box sx={styles.content}>
-            <Heading sx={styles.title}>
-              Customer support is our main priority with their hundred percent
-              satisfaction.
-            </Heading>
+          <SectionHeading
+          sx={styles.heading}
+          slogan="Ideal solutions for you"
+          title="Go beyond ultimate features"
+        />
             <Text as="p" sx={styles.summary}>
               Get your tests delivered at let home collect sample from the
               victory of the managements that supplies best design system
@@ -81,8 +84,8 @@ const styles = {
   },
   title: {
     color: 'heading',
-    fontFamily: 'headingAlt',
-    fontSize: [4, null, null, 8, null, null, 11],
+    fontFamily: 'heading',
+    fontSize: [4, null, null, 8, null, null, 10],
     fontWeight: 500,
     lineHeight: [1.33, null, 1.4, 1.53],
     letterSpacing: ['-0.5px', null, null, '-1px'],
